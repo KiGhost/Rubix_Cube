@@ -1,5 +1,6 @@
 # Rubix_Cube
-Rubix Cube developed for the Playstation Vita with fully enabled front and backtouch control
+Rubix Cube developed for the Playstation Vita with fully enabled front and backtouch control.
+You can play it and rotate it without using inputs from the buttons or sticks.
 
 The main.cpp in Rubix_Cube/HelloClear/ is the heart of this application.
 It is splitted in these steps:
