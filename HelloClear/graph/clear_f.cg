@@ -1,0 +1,18 @@
+﻿/* SCE CONFIDENTIAL
+ * PlayStation(R)Vita Programmer Tool Runtime Library Release 02.000.081
+ * Copyright (C) 2010 Sony Computer Entertainment Inc. 
+ * All Rights Reserved.
+ */
+
+// Clear Shader (fragment): clears the screen
+float4 main() : COLOR
+{
+	 return 0.f;
+}
+
+/*
+The fragment shader takes no input parameters, because it is implicit and
+pre-determined by the time the fragment shader is executed for a given pixel.
+It returns a four-element float array of {0, 0, 0, 0},
+which corresponds to black color with an alpha value of 0. 
+*/

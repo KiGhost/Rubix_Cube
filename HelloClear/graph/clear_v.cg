@@ -1,0 +1,26 @@
+﻿/* SCE CONFIDENTIAL
+ * PlayStation(R)Vita Programmer Tool Runtime Library Release 02.000.081
+ * Copyright (C) 2010 Sony Computer Entertainment Inc. 
+ * All Rights Reserved.
+ */
+
+// Clear Shader (vertex): clears the screen
+float4 main(
+	float2 aPosition
+	) : POSITION
+{
+	return float4(aPosition, 1.f, 1.f);
+}
+
+/*
+The vertex shader takes a two-element float array position in aPosition,
+converts it to a four-element float array of the form (x, y, 1, 1),
+and sends it to be interpolated by the raster stage.
+
+The shader output has the semantic POSITION.
+This semantic must be provided in clip space,
+where each X/W, Y/W, and Z/W must be within the {-1, 1} range to be visible.
+Because this vertex shader does not transform the input position by a transformation matrix,
+those input positions must already be in clip space. To clear the whole screen,
+you would have to provide input values {-1, -1}, {-1, 1}, {1, 1}, and {1, -1}.
+*/

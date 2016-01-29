@@ -1,0 +1,19 @@
+﻿Der Buildvorgang wurde am 28.06.2015 19:44:53 gestartet.
+     1>Projekt "C:\Users\rftpool22\Desktop\FrontTouchFinish_20_06\HelloClear\HelloClear.vcxproj" auf Knoten "2", build Ziel(e).
+     1>InitializeBuildStatus:
+         "PSVita_Debug\HelloClear.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       CustomBuild:
+         Alle Ausgaben sind aktuell.
+       ClCompile:
+         Alle Ausgaben sind aktuell.
+       Link:
+         Alle Ausgaben sind aktuell.
+         HelloClear.vcxproj -> C:\Users\rftpool22\Desktop\FrontTouchFinish_20_06\PSVita_Debug\HelloClear.self
+       FinalizeBuildStatus:
+         Die Datei "PSVita_Debug\HelloClear.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "PSVita_Debug\HelloClear.lastbuildstate".
+     1>Die Erstellung des Projekts "C:\Users\rftpool22\Desktop\FrontTouchFinish_20_06\HelloClear\HelloClear.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:00.08

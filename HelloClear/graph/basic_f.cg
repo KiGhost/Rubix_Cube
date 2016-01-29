@@ -1,0 +1,22 @@
+﻿/* SCE CONFIDENTIAL
+ * PlayStation(R)Vita Programmer Tool Runtime Library Release 02.000.081
+ * Copyright (C) 2010 Sony Computer Entertainment Inc. 
+ * All Rights Reserved.
+ */
+
+float4 main(
+	float4 vColor : TEXCOORD0,
+	float2 vUV : TEXCOORD1)
+{
+	//if in range of border -> set normal color
+	if(	(vUV.x > 0.05 && vUV.x < 0.95) &&
+		(vUV.y > 0.05 && vUV.y < 0.95))
+	{
+		return vColor;
+	}
+	// if outer range -> make color = black
+	else
+	{
+		return 0.0f;
+	}
+}
